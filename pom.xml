@@ -9,14 +9,6 @@
 	<modules>
 		<module>soa-01</module>
 		<module>soa-01-client</module>
-		<module>soa-02</module>
-		<module>soa-02-client</module>
-		<module>soa-03</module>
-		<module>soa-04-jetty</module>
-		<module>soa-04-jboss</module>
-		<module>soa-05</module>
-		<module>soa-06-usuarios</module>
-		
 	</modules>
 
 	<build>

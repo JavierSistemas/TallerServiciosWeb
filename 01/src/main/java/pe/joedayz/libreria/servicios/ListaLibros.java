@@ -7,7 +7,7 @@ import javax.xml.ws.Endpoint;
 
 import pe.joedayz.libreria.daos.LibroDAO;
 import pe.joedayz.libreria.modelos.Libro;
-
+//Todos los métodos public , serán los del servicio.
 
 @WebService  //JAX-WS
 public class ListaLibros {
