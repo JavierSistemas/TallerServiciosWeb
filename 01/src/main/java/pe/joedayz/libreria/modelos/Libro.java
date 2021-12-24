@@ -2,9 +2,18 @@ package pe.joedayz.libreria.modelos;
 
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Libro {
 	
 	private Integer anoDePublicacion;
+	
+	@XmlElementWrapper(name = "autores")
+	@XmlElement(name = "autor")
 	private List<String> autores;
 	private String editora;
 	private String nombre;
